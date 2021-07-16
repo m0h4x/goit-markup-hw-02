@@ -1,0 +1,83 @@
+/* cvet osnovnogo teksta #000000 */
+/* vtorichniy cvet teksta rgba(0, 0, 0, 0.8) */
+/* beliy #FFFFFF */
+/* akcent #18A0FB */
+/* vtorichniy cvet fona #F5F5F5 */
+/* feature-list = characteristics-list */
+/* work-list = specialisation-list */
+
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color:  #18A0FB;
+    --primary-white-color: #ffffff;
+}
+body {
+
+    background-color: var(--primary-white-color)ff;
+    color: var(--primary-text-color) ;
+}
+
+.list{
+    list-style: none;
+}
+
+.logo{
+    color: var(--title-text-color);
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+/* Site nav */
+.site-nav .link {
+    color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+/* characteristics */
+
+.characteristics-list .title {
+  color:  var(--title-text-color);
+}
+
+.characteristics-list .link{
+    color: var(--accent-color);
+}
+/* Examples */
+
+.specialisation-list .title {
+  color: var(--title-text-color);
+}
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-size: 24px;
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid black;
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+  border-color: blue;
+}
