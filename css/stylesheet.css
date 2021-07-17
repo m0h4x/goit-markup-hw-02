@@ -7,21 +7,25 @@
 /* work-list = specialisation-list */
 
 :root {
-    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --primary-text-color: #212121;
+    /* rgba(0, 0, 0, 0.8); */
+    /* 2F303A */
     --title-text-color: #000000;
     --accent-color:  #2196F3;
     --primary-white-color: #ffffff;
 }
 body {
 
-    background-color: var(--primary-white-color)ff;
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color) ;
 
-    font-family: Monserrat, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    font-size: 14px;
+    /* font-family: Monserrat, sans-serif; */
     /* eto sdes primer u nas takogo vrode netu */
-    letter-spacing: -0.015em;
-    font-size: 18px;
-    line-height: 1.67;
+
 }
 
 .list{
@@ -30,10 +34,11 @@ body {
 /* Logo */
 .logo{
     color: var(--title-text-color);
-    font-family: Comfortaa, cursive;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: Comfortaa, cursive; */
 
-    font-size: 28px;
-    line-height: 1.14;
     text-decoration: none;
 }
 .logo:hover{
@@ -42,11 +47,10 @@ body {
 /* Site nav */
 .site-nav .link {
     color: var(--accent-color);
-
     font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
-  text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -59,41 +63,44 @@ body {
 /* Hero */
 
 .hero-title {
-  color: var(--title-text-color);
-
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 1.43;
-  text-align: center;
+    color: var(--title-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
 }
 /* Section */
 
 .section-title {
     color: var(--title-text-color);
-
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1.5;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 16px;
     text-align: center;
 }
-.section-description {
+/* .section-description {
   font-size: 36px;
   line-height: 1.39;
-}
+} */
 /* characteristics (features) */
 /* Examples (work)*/
 
 .characteristics-list .title,
 .specialisation-list .title {
-  color:  var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.5;
+    color:  var(--title-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 42px;
 }
 
 .characteristics-list .link{
     color: var(--accent-color);
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /* Works  */
 /* .works{
@@ -102,22 +109,22 @@ body {
 /* Button */
 
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
-  font-size: 24px;
-  padding: 12px 24px;
-  display: inline-block;
-  border: 1px solid black;
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    font-size: 16px;
+  /* padding: 12px 24px; */
+    display: flex;
+    border: 1px solid black;
 /* this added at second css lesson */
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
-  text-decoration: none;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
 }
 .button.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  border-color: transparent;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
 }
 
 .button.secondary {
