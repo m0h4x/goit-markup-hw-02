@@ -60,26 +60,45 @@ body {
 
 .hero-title {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
 }
 /* Section */
 
 .section-title {
     color: var(--title-text-color);
-}
-/* characteristics */
 
-.characteristics-list .title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+}
+.section-description {
+  font-size: 36px;
+  line-height: 1.39;
+}
+/* characteristics (features) */
+/* Examples (work)*/
+
+.characteristics-list .title,
+.specialisation-list .title {
   color:  var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .characteristics-list .link{
     color: var(--accent-color);
 }
-/* Examples */
-
-.specialisation-list .title {
-  color: var(--title-text-color);
-}
+/* Works  */
+/* .works{
+  background-color: tomato;
+} */
 /* Button */
 
 .button {
@@ -89,6 +108,11 @@ body {
   padding: 12px 24px;
   display: inline-block;
   border: 1px solid black;
+/* this added at second css lesson */
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .button.primary {
   color: var(--primary-white-color);
