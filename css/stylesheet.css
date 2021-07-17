@@ -16,14 +16,25 @@ body {
 
     background-color: var(--primary-white-color)ff;
     color: var(--primary-text-color) ;
+
+    font-family: Monserrat, sans-serif;
+    /* eto sdes primer u nas takogo vrode netu */
+    letter-spacing: -0.015em;
+    font-size: 18px;
+    line-height: 1.67;
 }
 
 .list{
     list-style: none;
 }
-
+/* Logo */
 .logo{
     color: var(--title-text-color);
+    font-family: Comfortaa, cursive;
+
+    font-size: 28px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .logo:hover{
     color: var(--accent-color);
@@ -31,6 +42,11 @@ body {
 /* Site nav */
 .site-nav .link {
     color: var(--accent-color);
+
+    font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
