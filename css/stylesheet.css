@@ -192,3 +192,6 @@ body {
 .footer-adr .link-current {
     color: var(--accent-color);
 }
+.logo-color{
+    color: var(--accent-color)
+}
