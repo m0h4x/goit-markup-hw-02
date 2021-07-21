@@ -129,6 +129,11 @@ body {
     line-height: 26px;
     text-decoration: none;
     cursor: pointer;
+    /**/
+     border-radius: 6px; 
+    padding: 11px 34px;
+    display: inline-block;
+    min-width: 130px;
 }
 .button.primary {
     color: var(--primary-white-color);
